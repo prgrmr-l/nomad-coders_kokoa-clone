@@ -48,7 +48,6 @@
   align-items: flex-end;
 }
 
-.user-component__time {
-  margin-bottom: 10px;
-  display: block;
+.user-component__subtitle .fa-circle-exclamation {
+  color: tomato;
 }
