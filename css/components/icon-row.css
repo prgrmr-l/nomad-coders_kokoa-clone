@@ -17,10 +17,8 @@
   margin-top: 18px;
 }
 
-.icon-row_under {
+.icon-row__icon-empty {
   display: flex;
-}
-
-.icon-row_under .fa-comments {
-  padding: 0 72px;
+  width: 60px;
+  height: 60px;
 }

@@ -14,10 +14,10 @@
 
 .more-suggestions__icons {
   display: flex;
+  justify-content: space-between;
 }
 
 .more-suggestions__icons-icon {
-  margin-right: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,4 +42,14 @@
 .more-suggestions__icons-icon img {
   width: 60px;
   height: 60px;
+}
+
+.empty .more-suggestions__icons-image {
+  background-color: inherit;
+}
+
+.more-suggestions__icons-text {
+  display: block;
+  width: 60px;
+  text-align: center;
 }
